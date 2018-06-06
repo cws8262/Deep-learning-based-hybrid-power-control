@@ -1,0 +1,29 @@
+train data
+
+X = [data num, features, window(10 steps)] 911893x20x10 
+Y = [data num, outputs] 911893x2
+features : 20개 (mks unit), 
+1. k step의 Power demand
+2. k step의 휠 각속도
+3. k step의 SOC
+4. k step의 generator speed
+5. k step의 motor speed
+6. k step의 engine speed
+7. k-1 step의 Power demand
+8. k-1 step의 휠 각속도
+9. k-1 step의 SOC
+10. k-1 step의 difference of SOC
+11. k-1 step의 generator speed 
+12. k-1 step의 motor speed
+13. k-1 step의 engine speed
+14. k-1 step의 Fuel rate
+15. k-1 step의 Power loss in generator
+16. k-1 step의 Power loss in motor
+17. k-1 step의 Power loss in battery
+18. k-1 step의 Power loss in converter
+19. k-1 step의 Power loss when the power transfers from converter to motor
+20. k-1 step의 Power loss when the power transfers from battery to converter
+
+outputs
+1. k step의 engine torque
+2. k step의 generator torque
