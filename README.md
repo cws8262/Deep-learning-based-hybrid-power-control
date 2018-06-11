@@ -1,4 +1,4 @@
-# RobotRecognitionSystem-Termproject
+# Deep learning based hybrid power control
 
 1. 프로젝트 개요
  - 프로젝트 명 : DNN 기반 하이브리드 동력 분배 알고리즘 개발
